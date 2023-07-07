@@ -1,0 +1,50 @@
+@mixin font-heading-xl {
+  font-family: "Beaufort for LOL";
+  font-size: 40pt;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 42pt;
+}
+@mixin font-heading-l {
+  font-family: "Beaufort for LOL";
+  font-size: 28pt;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 32pt;
+}
+@mixin font-heading-m {
+  font-family: "Beaufort for LOL";
+  font-size: 23pt;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 28pt;
+}
+@mixin font-heading-s {
+  font-family: "Beaufort for LOL";
+  font-size: 18pt;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 22pt;
+}
+@mixin font-heading-xs {
+  font-family: "Beaufort for LOL";
+  font-size: 14pt;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 18pt;
+}
+
+@mixin font-body {
+  font-family: Spiegel;
+  font-size: 14pt;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  line-height: 20pt;
+}
+@mixin font-body-bold {
+  font-family: Spiegel;
+  font-size: 11pt;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 16pt;
+}
