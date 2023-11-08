@@ -1,20 +1,25 @@
 <script setup lang="ts">
-import Team from "~/components/Team.vue";
-import { useMatch } from "~/stores/match";
+const participants = ref<Participant[]>([]);
 
-const { value, addTeam } = useMatch();
+function handleSubmit(name: string) {
+  participants.value.push({ name });
+}
 </script>
 
 <template>
-  <div>
-    <ul>
-      <li v-for="(i, index) in value.team" :key="`team-${index}`">
-        <Team v-bind="i" />
-      </li>
-    </ul>
-
-    <button @click="addTeam()">Create Team</button>
-  </div>
+  <main class="page">
+    <ParticipantForm @submit="handleSubmit" class="page__section" />
+    <ParticipantList :participants="participants" class="page__section" />
+  </main>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.page {
+  padding: 40px;
+  margin: 0 400px;
+
+  &__section:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}
+</style>
