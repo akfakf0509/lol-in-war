@@ -17,9 +17,7 @@ export default defineNuxtConfig({
   },
   css: ["@/assets/styles/root.scss"],
   modules: ["@pinia/nuxt"],
-  pinia: {
-    autoImports: ["defineStore"],
-  },
+  pinia: {},
   vite: {
     css: {
       preprocessorOptions: {
