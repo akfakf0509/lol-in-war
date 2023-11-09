@@ -2,7 +2,11 @@
 interface Props {
   participants: Participant[];
 }
+interface Emits {
+  (event: "update:tier", index: number, tier: number): void;
+}
 defineProps<Props>();
+const emit = defineEmits<Emits>();
 </script>
 
 <template>
@@ -10,9 +14,10 @@ defineProps<Props>();
     <Header text="참가자 목록"></Header>
     <ul class="participants__list">
       <Participant
-        v-for="participant in participants"
+        v-for="(participant, index) in participants"
         :key="participant.name"
         v-bind="participant"
+        @update:tier="(newTier) => emit('update:tier', index, newTier)"
       />
     </ul>
   </section>
