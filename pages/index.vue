@@ -1,4 +1,6 @@
 <script setup lang="ts">
+const router = useRouter();
+
 const participants = ref<Participant[]>([]);
 const createdTeam = ref<Participant[][]>([[], []]);
 
@@ -10,6 +12,9 @@ function handleUpdateTier(index: number, tier: number) {
 }
 function handleCreate() {
   createdTeam.value = create();
+}
+function handleExport() {
+  router.replace(`/result?v=${btoa(JSON.stringify(createdTeam.value))}`);
 }
 
 function create() {
@@ -47,26 +52,13 @@ function reverseZeroOne(num: number) {
       @update:tier="handleUpdateTier"
     />
     <button class="page__create" @click="handleCreate()">생성 하기</button>
-    <p>
-      {{ createdTeam[0] }}
-      <span
-        v-text="
-          createdTeam[0].reduce((acc, cur) => {
-            return acc + cur.tier;
-          }, 0)
-        "
-      ></span>
-    </p>
-    <p>
-      {{ createdTeam[1] }}
-      <span
-        v-text="
-          createdTeam[1].reduce((acc, cur) => {
-            return acc + cur.tier;
-          }, 0)
-        "
-      ></span>
-    </p>
+    <button class="page__create" @click="handleExport()">내보내기</button>
+    <hr class="page__hr" />
+    <Result
+      v-if="createdTeam[0].length"
+      :team1="createdTeam[0]"
+      :team2="createdTeam[1]"
+    />
   </main>
 </template>
 
@@ -82,6 +74,14 @@ function reverseZeroOne(num: number) {
     @include font-heading-xs;
     padding: 12px 24px;
     border: 1px solid $color-border;
+  }
+  &__hr {
+    height: 1px;
+    border: none;
+
+    margin: 32px 0;
+
+    background-color: $color-border;
   }
 }
 </style>
