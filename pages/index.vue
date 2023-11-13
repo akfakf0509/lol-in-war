@@ -14,7 +14,9 @@ function handleCreate() {
   createdTeam.value = create();
 }
 function handleExport() {
-  router.replace(`/result?v=${btoa(JSON.stringify(createdTeam.value))}`);
+  const stringified = JSON.stringify(createdTeam.value);
+  const convertedBase64 = convertToBase64(stringified);
+  router.replace(`/result?v=${encodeURIComponent(convertedBase64)}`);
 }
 
 function create() {
@@ -34,12 +36,17 @@ function create() {
 
   return result;
 }
-
 function getRandomNumber(max: number) {
   return Math.floor(Math.random() * max);
 }
 function reverseZeroOne(num: number) {
   return num === 0 ? 1 : 0;
+}
+
+function convertToBase64(text: string) {
+  const encodedText = new TextEncoder().encode(text);
+  const binString = String.fromCodePoint(...encodedText);
+  return btoa(binString);
 }
 </script>
 
