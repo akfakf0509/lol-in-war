@@ -16,9 +16,23 @@ function parseStringFromBase64(text: string) {
 </script>
 
 <template>
-  <main>
-    {{ data }}
+  <main class="page">
+    <Result :team1="data[0]" :team2="data[1]" class="page__result" />
   </main>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.page {
+  display: flex;
+  align-items: center;
+
+  height: 100%;
+
+  padding: 40px;
+  margin: 0 400px;
+
+  &__result {
+    flex: 1;
+  }
+}
+</style>
