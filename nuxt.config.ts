@@ -1,6 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
+    baseURL: "/lol-in-war",
+    buildAssetsDir: "assets",
     head: {
       charset: "utf-8",
       link: [
@@ -18,6 +20,7 @@ export default defineNuxtConfig({
   css: ["@/assets/styles/root.scss"],
   modules: ["@pinia/nuxt"],
   pinia: {},
+  ssr: false,
   vite: {
     css: {
       preprocessorOptions: {
