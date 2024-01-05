@@ -3,7 +3,12 @@ export default defineNuxtConfig({
   css: ["~/assets/css/main.css"],
   devtools: { enabled: true },
   modules: ["nuxt-mongoose", "radix-vue/nuxt"],
-  mongoose: { uri: process.env.MONGODB_URI },
+  mongoose: {
+    options: {
+      dbName: process.env.MONGODB_NAME,
+    },
+    uri: process.env.MONGODB_URI,
+  },
   postcss: {
     plugins: {
       tailwindcss: {},
