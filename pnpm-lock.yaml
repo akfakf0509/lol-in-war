@@ -7,16 +7,16 @@ settings:
 devDependencies:
   autoprefixer:
     specifier: ^10.4.16
-    version: 10.4.17(postcss@8.4.32)
+    version: 10.4.17(postcss@8.4.35)
   nuxt:
     specifier: ^3.9.0
     version: 3.9.3(sass@1.69.7)(vite@5.1.4)
   nuxt-mongoose:
     specifier: ^1.0.3
-    version: 1.0.5(@nuxt/devtools@1.0.8)(@vue/compiler-core@3.4.20)(nuxt@3.9.3)(postcss@8.4.32)(vite@5.1.4)(vue@3.4.3)(webpack@5.90.3)
+    version: 1.0.5(@nuxt/devtools@1.0.8)(@vue/compiler-core@3.4.20)(nuxt@3.9.3)(postcss@8.4.35)(vite@5.1.4)(vue@3.4.3)(webpack@5.90.3)
   postcss:
     specifier: ^8.4.32
-    version: 8.4.32
+    version: 8.4.35
   radix-vue:
     specifier: ^1.2.6
     version: 1.2.6(vue@3.4.3)
@@ -968,7 +968,7 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/devtools-ui-kit@1.0.8(@nuxt/devtools@1.0.8)(@vue/compiler-core@3.4.20)(nuxt@3.9.3)(postcss@8.4.32)(vite@5.1.4)(vue@3.4.3)(webpack@5.90.3):
+  /@nuxt/devtools-ui-kit@1.0.8(@nuxt/devtools@1.0.8)(@vue/compiler-core@3.4.20)(nuxt@3.9.3)(postcss@8.4.35)(vite@5.1.4)(vue@3.4.3)(webpack@5.90.3):
     resolution: {integrity: sha512-oPkyQ+nkvCvveWxHWAHpZt9uEycHFD00Rh46KYKe5KLl81Wr/L3KacIIYpiocPog0YZZhjvX5CmrIe8zXopNOA==}
     peerDependencies:
       '@nuxt/devtools': 1.0.8
@@ -982,7 +982,7 @@ packages:
       '@nuxt/kit': 3.10.3
       '@nuxtjs/color-mode': 3.3.2
       '@unocss/core': 0.58.5
-      '@unocss/nuxt': 0.58.5(postcss@8.4.32)(vite@5.1.4)(webpack@5.90.3)
+      '@unocss/nuxt': 0.58.5(postcss@8.4.35)(vite@5.1.4)(webpack@5.90.3)
       '@unocss/preset-attributify': 0.58.5
       '@unocss/preset-icons': 0.58.5
       '@unocss/preset-mini': 0.58.5
@@ -993,7 +993,7 @@ packages:
       defu: 6.1.4
       focus-trap: 7.5.4
       splitpanes: 3.1.5
-      unocss: 0.58.5(@unocss/webpack@0.58.5)(postcss@8.4.32)(vite@5.1.4)
+      unocss: 0.58.5(@unocss/webpack@0.58.5)(postcss@8.4.35)(vite@5.1.4)
       v-lazy-show: 0.2.4(@vue/compiler-core@3.4.20)
     transitivePeerDependencies:
       - '@unocss/webpack'
@@ -1907,7 +1907,7 @@ packages:
       sirv: 2.0.4
     dev: true
 
-  /@unocss/nuxt@0.58.5(postcss@8.4.32)(vite@5.1.4)(webpack@5.90.3):
+  /@unocss/nuxt@0.58.5(postcss@8.4.35)(vite@5.1.4)(webpack@5.90.3):
     resolution: {integrity: sha512-x5iIGATNAhAGfN2w0f+ulRzmJTgu7PcJ8XAFmAx9QMKkVGnnurZEyW4IEm3Kr/EsRMhJXLtmZnsAGjC09qUh6A==}
     dependencies:
       '@nuxt/kit': 3.10.3
@@ -1923,7 +1923,7 @@ packages:
       '@unocss/reset': 0.58.5
       '@unocss/vite': 0.58.5(vite@5.1.4)
       '@unocss/webpack': 0.58.5(webpack@5.90.3)
-      unocss: 0.58.5(@unocss/webpack@0.58.5)(postcss@8.4.32)(vite@5.1.4)
+      unocss: 0.58.5(@unocss/webpack@0.58.5)(postcss@8.4.35)(vite@5.1.4)
     transitivePeerDependencies:
       - postcss
       - rollup
@@ -1932,7 +1932,7 @@ packages:
       - webpack
     dev: true
 
-  /@unocss/postcss@0.58.5(postcss@8.4.32):
+  /@unocss/postcss@0.58.5(postcss@8.4.35):
     resolution: {integrity: sha512-m4L2YRdYfT6CV306Kl2VwEwbqa/92EpW4GE2Kqak1RuJyFJXBnWEEMJV4Uy6B1jWKLlCEWkuVUW33JUg7X6BxQ==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -1944,7 +1944,7 @@ packages:
       css-tree: 2.3.1
       fast-glob: 3.3.2
       magic-string: 0.30.7
-      postcss: 8.4.32
+      postcss: 8.4.35
     dev: true
 
   /@unocss/preset-attributify@0.58.5:
@@ -2267,7 +2267,7 @@ packages:
       '@vue/shared': 3.4.3
       estree-walker: 2.0.2
       magic-string: 0.30.7
-      postcss: 8.4.32
+      postcss: 8.4.35
       source-map-js: 1.0.2
     dev: true
 
@@ -2768,22 +2768,6 @@ packages:
 
   /async@3.2.5:
     resolution: {integrity: sha512-baNZyqaaLhyLVKm/DlvdW051MSgO6b8eVfIezl9E5PqWxFgzLm/wQntEW4zOytVburDEr0JlALEpdOFwvErLsg==}
-    dev: true
-
-  /autoprefixer@10.4.17(postcss@8.4.32):
-    resolution: {integrity: sha512-/cpVNRLSfhOtcGflT13P2794gVSgmPgTR+erw5ifnMLZb0UnSlkK4tquLmkd3BhA+nLo5tX8Cu0upUsGKvKbmg==}
-    engines: {node: ^10 || ^12 || >=14}
-    hasBin: true
-    peerDependencies:
-      postcss: ^8.1.0
-    dependencies:
-      browserslist: 4.23.0
-      caniuse-lite: 1.0.30001589
-      fraction.js: 4.3.7
-      normalize-range: 0.1.2
-      picocolors: 1.0.0
-      postcss: 8.4.32
-      postcss-value-parser: 4.2.0
     dev: true
 
   /autoprefixer@10.4.17(postcss@8.4.35):
@@ -5190,11 +5174,11 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /nuxt-mongoose@1.0.5(@nuxt/devtools@1.0.8)(@vue/compiler-core@3.4.20)(nuxt@3.9.3)(postcss@8.4.32)(vite@5.1.4)(vue@3.4.3)(webpack@5.90.3):
+  /nuxt-mongoose@1.0.5(@nuxt/devtools@1.0.8)(@vue/compiler-core@3.4.20)(nuxt@3.9.3)(postcss@8.4.35)(vite@5.1.4)(vue@3.4.3)(webpack@5.90.3):
     resolution: {integrity: sha512-0R4uVCgjam0ZpwTk6i/KqOH1GuPZRF8yBWgFEbYINfID7qE/WlNsPwl8R9gq21Rqh/6KTh2IXnej4CPEKIOuCQ==}
     dependencies:
       '@nuxt/devtools-kit': 1.0.8(nuxt@3.9.3)(vite@5.1.4)
-      '@nuxt/devtools-ui-kit': 1.0.8(@nuxt/devtools@1.0.8)(@vue/compiler-core@3.4.20)(nuxt@3.9.3)(postcss@8.4.32)(vite@5.1.4)(vue@3.4.3)(webpack@5.90.3)
+      '@nuxt/devtools-ui-kit': 1.0.8(@nuxt/devtools@1.0.8)(@vue/compiler-core@3.4.20)(nuxt@3.9.3)(postcss@8.4.35)(vite@5.1.4)(vue@3.4.3)(webpack@5.90.3)
       '@nuxt/kit': 3.10.3
       '@vueuse/core': 10.8.0(vue@3.4.3)
       defu: 6.1.4
@@ -5655,29 +5639,29 @@ packages:
       postcss: 8.4.35
     dev: true
 
-  /postcss-import@15.1.0(postcss@8.4.32):
+  /postcss-import@15.1.0(postcss@8.4.35):
     resolution: {integrity: sha512-hpr+J05B2FVYUAXHeK1YyI267J/dDDhMU6B6civm8hSY1jYJnBXxzKDKDswzJmtLHryrjhnDjqqp/49t8FALew==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       postcss: ^8.0.0
     dependencies:
-      postcss: 8.4.32
+      postcss: 8.4.35
       postcss-value-parser: 4.2.0
       read-cache: 1.0.0
       resolve: 1.22.8
     dev: true
 
-  /postcss-js@4.0.1(postcss@8.4.32):
+  /postcss-js@4.0.1(postcss@8.4.35):
     resolution: {integrity: sha512-dDLF8pEO191hJMtlHFPRa8xsizHaM82MLfNkUHdUtVEV3tgTp5oj+8qbEqYM57SLfc74KSbw//4SeJma2LRVIw==}
     engines: {node: ^12 || ^14 || >= 16}
     peerDependencies:
       postcss: ^8.4.21
     dependencies:
       camelcase-css: 2.0.1
-      postcss: 8.4.32
+      postcss: 8.4.35
     dev: true
 
-  /postcss-load-config@4.0.2(postcss@8.4.32):
+  /postcss-load-config@4.0.2(postcss@8.4.35):
     resolution: {integrity: sha512-bSVhyJGL00wMVoPUzAVAnbEoWyqRxkjv64tUl427SKnPrENtq6hJwUojroMz2VB+Q1edmi4IfrAPpami5VVgMQ==}
     engines: {node: '>= 14'}
     peerDependencies:
@@ -5690,7 +5674,7 @@ packages:
         optional: true
     dependencies:
       lilconfig: 3.0.0
-      postcss: 8.4.32
+      postcss: 8.4.35
       yaml: 2.3.4
     dev: true
 
@@ -5762,13 +5746,13 @@ packages:
       postcss-selector-parser: 6.0.15
     dev: true
 
-  /postcss-nested@6.0.1(postcss@8.4.32):
+  /postcss-nested@6.0.1(postcss@8.4.35):
     resolution: {integrity: sha512-mEp4xPMi5bSWiMbsgoPfcP74lsWLHkQbZc3sY+jWYd65CUwXrUaTp0fmNpa01ZcETKlIgUdFN/MpS2xZtqL9dQ==}
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.2.14
     dependencies:
-      postcss: 8.4.32
+      postcss: 8.4.35
       postcss-selector-parser: 6.0.15
     dev: true
 
@@ -5925,15 +5909,6 @@ packages:
 
   /postcss-value-parser@4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
-    dev: true
-
-  /postcss@8.4.32:
-    resolution: {integrity: sha512-D/kj5JNu6oo2EIy+XL/26JEDTlIbB8hw85G8StOE6L74RQAVVP5rej6wxCNqyMbR4RkPfqvezVbPw81Ngd6Kcw==}
-    engines: {node: ^10 || ^12 || >=14}
-    dependencies:
-      nanoid: 3.3.7
-      picocolors: 1.0.0
-      source-map-js: 1.0.2
     dev: true
 
   /postcss@8.4.35:
@@ -6655,11 +6630,11 @@ packages:
       normalize-path: 3.0.0
       object-hash: 3.0.0
       picocolors: 1.0.0
-      postcss: 8.4.32
-      postcss-import: 15.1.0(postcss@8.4.32)
-      postcss-js: 4.0.1(postcss@8.4.32)
-      postcss-load-config: 4.0.2(postcss@8.4.32)
-      postcss-nested: 6.0.1(postcss@8.4.32)
+      postcss: 8.4.35
+      postcss-import: 15.1.0(postcss@8.4.35)
+      postcss-js: 4.0.1(postcss@8.4.35)
+      postcss-load-config: 4.0.2(postcss@8.4.35)
+      postcss-nested: 6.0.1(postcss@8.4.35)
       postcss-selector-parser: 6.0.15
       resolve: 1.22.8
       sucrase: 3.35.0
@@ -6906,7 +6881,7 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /unocss@0.58.5(@unocss/webpack@0.58.5)(postcss@8.4.32)(vite@5.1.4):
+  /unocss@0.58.5(@unocss/webpack@0.58.5)(postcss@8.4.35)(vite@5.1.4):
     resolution: {integrity: sha512-0g4P6jLgRRNnhscxw7nQ9RHGrKJ1UPPiHPet+YT3TXUcmy4mTiYgo9+kGQf5bjyrzsELJ10cT6Qz2y6g9Tls4g==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -6922,7 +6897,7 @@ packages:
       '@unocss/cli': 0.58.5
       '@unocss/core': 0.58.5
       '@unocss/extractor-arbitrary-variants': 0.58.5
-      '@unocss/postcss': 0.58.5(postcss@8.4.32)
+      '@unocss/postcss': 0.58.5(postcss@8.4.35)
       '@unocss/preset-attributify': 0.58.5
       '@unocss/preset-icons': 0.58.5
       '@unocss/preset-mini': 0.58.5
@@ -7258,7 +7233,7 @@ packages:
         optional: true
     dependencies:
       esbuild: 0.19.12
-      postcss: 8.4.32
+      postcss: 8.4.35
       rollup: 4.12.0
       sass: 1.69.7
     optionalDependencies:
