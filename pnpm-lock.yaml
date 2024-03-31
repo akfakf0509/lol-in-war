@@ -19,7 +19,7 @@ devDependencies:
     version: 8.4.38
   radix-vue:
     specifier: ^1.2.6
-    version: 1.6.0(vue@3.4.21)
+    version: 1.6.1(vue@3.4.21)
   sass:
     specifier: ^1.69.7
     version: 1.72.0
@@ -911,6 +911,12 @@ packages:
       mlly: 1.6.1
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /@internationalized/date@3.5.2:
+    resolution: {integrity: sha512-vo1yOMUt2hzp63IutEaTUxROdvQg1qlMRsbCvbay2AK2Gai7wIgCyK5weEX3nHkiLgo4qCXHijFNC/ILhlRpOQ==}
+    dependencies:
+      '@swc/helpers': 0.5.8
     dev: true
 
   /@ioredis/commands@1.2.0:
@@ -2021,6 +2027,12 @@ packages:
   /@sindresorhus/merge-streams@2.3.0:
     resolution: {integrity: sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==}
     engines: {node: '>=18'}
+    dev: true
+
+  /@swc/helpers@0.5.8:
+    resolution: {integrity: sha512-lruDGw3pnfM3wmZHeW7JuhkGQaJjPyiKjxeGhdmfoOT53Ic9qb5JLDNaK2HUdl1zLDeX28H221UvKjfdvSLVMg==}
+    dependencies:
+      tslib: 2.6.2
     dev: true
 
   /@trysound/sax@0.2.0:
@@ -6338,17 +6350,14 @@ packages:
     resolution: {integrity: sha512-kJt5qhMxoszgU/62PLP1CJytzd2NKetjSRnyuj31fDd3Rlcz3fzlFdFLD1SItunPwyqEOkca6GbV612BWfaBag==}
     dev: true
 
-  /radix-vue@1.6.0(vue@3.4.21):
-    resolution: {integrity: sha512-5sIsXawcypGYb1cgqLJ1J0S660MWaQl5jdUF/fzT9QKj1/+X/A3WmSc33B87G7IJOtUwOzqgoguMx7L6VnZxZw==}
+  /radix-vue@1.6.1(vue@3.4.21):
+    resolution: {integrity: sha512-/nnA4u8oYAZK86unEjRuIROrTDDU0HHiwkCgGI0YeCNpyObSnbC1CZJlXUBErdY51yxcqV4cU4WJBKwQC8iRFA==}
     peerDependencies:
-      '@internationalized/date': ^3.5.2
       vue: '>= 3.2.0'
-    peerDependenciesMeta:
-      '@internationalized/date':
-        optional: true
     dependencies:
       '@floating-ui/dom': 1.6.3
       '@floating-ui/vue': 1.0.6(vue@3.4.21)
+      '@internationalized/date': 3.5.2
       '@vueuse/core': 10.9.0(vue@3.4.21)
       '@vueuse/shared': 10.9.0(vue@3.4.21)
       aria-hidden: 1.2.4
