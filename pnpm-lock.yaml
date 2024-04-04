@@ -19,7 +19,7 @@ devDependencies:
     version: 8.4.38
   radix-vue:
     specifier: ^1.2.6
-    version: 1.6.1(vue@3.4.21)
+    version: 1.6.2(vue@3.4.21)
   sass:
     specifier: ^1.69.7
     version: 1.74.1
@@ -6350,8 +6350,8 @@ packages:
     resolution: {integrity: sha512-kJt5qhMxoszgU/62PLP1CJytzd2NKetjSRnyuj31fDd3Rlcz3fzlFdFLD1SItunPwyqEOkca6GbV612BWfaBag==}
     dev: true
 
-  /radix-vue@1.6.1(vue@3.4.21):
-    resolution: {integrity: sha512-/nnA4u8oYAZK86unEjRuIROrTDDU0HHiwkCgGI0YeCNpyObSnbC1CZJlXUBErdY51yxcqV4cU4WJBKwQC8iRFA==}
+  /radix-vue@1.6.2(vue@3.4.21):
+    resolution: {integrity: sha512-uHyj8YaA+O2ZF1Ouxl2EJUzXXEFLzN/CtOE1HVFG3h60aFD7E9HNZ5RxODnXSD7j0vZLFS/dHU9Z2+Yjljj2Lg==}
     peerDependencies:
       vue: '>= 3.2.0'
     dependencies:
