@@ -34,7 +34,7 @@ importers:
         version: 3.4.36
       vue-router:
         specifier: ^4.2.5
-        version: 4.4.2(vue@3.4.36)
+        version: 4.4.3(vue@3.4.36)
 
 packages:
 
@@ -3851,8 +3851,8 @@ packages:
   vue-devtools-stub@0.1.0:
     resolution: {integrity: sha512-RutnB7X8c5hjq39NceArgXg28WZtZpGc3+J16ljMiYnFhKvd8hITxSWQSQ5bvldxMDU6gG5mkxl1MTQLXckVSQ==}
 
-  vue-router@4.4.2:
-    resolution: {integrity: sha512-1qNybkn2L7QsLzaXs8nvlQmRKp8XF8DCxZys/Jr1JpQcHsKUxTKzTxCVA1G7NfBfwRIBgCJPoujOG5lHCCNUxw==}
+  vue-router@4.4.3:
+    resolution: {integrity: sha512-sv6wmNKx2j3aqJQDMxLFzs/u/mjA9Z5LCgy6BE0f7yFWMjrPLnS/sPNn8ARY/FXw6byV18EFutn5lTO6+UsV5A==}
     peerDependencies:
       vue: ^3.2.0
 
@@ -7194,13 +7194,13 @@ snapshots:
       unenv: 1.10.0
       unimport: 3.9.0(rollup@4.18.1)
       unplugin: 1.11.0
-      unplugin-vue-router: 0.10.0(rollup@4.18.1)(vue-router@4.4.2(vue@3.4.36))(vue@3.4.36)
+      unplugin-vue-router: 0.10.0(rollup@4.18.1)(vue-router@4.4.3(vue@3.4.36))(vue@3.4.36)
       unstorage: 1.10.2(ioredis@5.4.1)
       untyped: 1.4.2
       vue: 3.4.36
       vue-bundle-renderer: 2.1.0
       vue-devtools-stub: 0.1.0
-      vue-router: 4.4.2(vue@3.4.36)
+      vue-router: 4.4.3(vue@3.4.36)
     optionalDependencies:
       '@parcel/watcher': 2.4.1
       '@types/node': 22.1.0
@@ -8126,7 +8126,7 @@ snapshots:
       - rollup
       - supports-color
 
-  unplugin-vue-router@0.10.0(rollup@4.18.1)(vue-router@4.4.2(vue@3.4.36))(vue@3.4.36):
+  unplugin-vue-router@0.10.0(rollup@4.18.1)(vue-router@4.4.3(vue@3.4.36))(vue@3.4.36):
     dependencies:
       '@babel/types': 7.24.9
       '@rollup/pluginutils': 5.1.0(rollup@4.18.1)
@@ -8142,7 +8142,7 @@ snapshots:
       unplugin: 1.11.0
       yaml: 2.4.5
     optionalDependencies:
-      vue-router: 4.4.2(vue@3.4.36)
+      vue-router: 4.4.3(vue@3.4.36)
     transitivePeerDependencies:
       - rollup
       - vue
@@ -8334,7 +8334,7 @@ snapshots:
 
   vue-devtools-stub@0.1.0: {}
 
-  vue-router@4.4.2(vue@3.4.36):
+  vue-router@4.4.3(vue@3.4.36):
     dependencies:
       '@vue/devtools-api': 6.6.3
       vue: 3.4.36
