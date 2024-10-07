@@ -22,7 +22,7 @@ importers:
         version: 8.4.47
       radix-vue:
         specifier: ^1.2.6
-        version: 1.9.6(vue@3.5.11)
+        version: 1.9.7(vue@3.5.11)
       sass:
         specifier: ^1.69.7
         version: 1.79.4
@@ -688,11 +688,11 @@ packages:
   '@iconify/utils@2.1.23':
     resolution: {integrity: sha512-YGNbHKM5tyDvdWZ92y2mIkrfvm5Fvhe6WJSkWu7vvOFhMtYDP0casZpoRz0XEHZCrYsR4stdGT3cZ52yp5qZdQ==}
 
-  '@internationalized/date@3.5.5':
-    resolution: {integrity: sha512-H+CfYvOZ0LTJeeLOqm19E3uj/4YjrmOFtBufDHPfvtI80hFAMqtrp7oCACpe4Cil5l8S0Qu/9dYfZc/5lY8WQQ==}
+  '@internationalized/date@3.5.6':
+    resolution: {integrity: sha512-jLxQjefH9VI5P9UQuqB6qNKnvFt1Ky1TPIzHGsIlCi7sZZoMR8SdYbBGRvM0y+Jtb+ez4ieBzmiAUcpmPYpyOw==}
 
-  '@internationalized/number@3.5.3':
-    resolution: {integrity: sha512-rd1wA3ebzlp0Mehj5YTuTI50AQEx80gWFyHcQu+u91/5NgdwBecO8BH6ipPfE+lmQ9d63vpB3H9SHoIUiupllw==}
+  '@internationalized/number@3.5.4':
+    resolution: {integrity: sha512-h9huwWjNqYyE2FXZZewWqmCdkw1HeFds5q4Siuoms3hUQC5iPJK3aBmkFZoDSLN4UD0Bl8G22L/NdHpeOr+/7A==}
 
   '@ioredis/commands@1.2.0':
     resolution: {integrity: sha512-Sx1pU8EM64o2BrqNpEO1CNLtKQwyhuXuqyfH7oGKCk+1a33d2r5saW8zNwm3j6BTExtjrv2BxTgzzkMwts6vGg==}
@@ -3197,8 +3197,8 @@ packages:
   queue-tick@1.0.1:
     resolution: {integrity: sha512-kJt5qhMxoszgU/62PLP1CJytzd2NKetjSRnyuj31fDd3Rlcz3fzlFdFLD1SItunPwyqEOkca6GbV612BWfaBag==}
 
-  radix-vue@1.9.6:
-    resolution: {integrity: sha512-legrn9jHbEpbJS4QYrA0VmIafj1bmc4MSVzN55WZatGiXMJg3oFrQL5QxpiURJciS+OlATbKA2KAGkMuuLA0LA==}
+  radix-vue@1.9.7:
+    resolution: {integrity: sha512-1xleWzWNFPfAMmb81gu/4/MV8dXMvc7j2EIjutBpBcKwxdJfeIcQg4k9De18L2rL1/GZg5wA9KykeKTM4MjWow==}
     peerDependencies:
       vue: '>= 3.2.0'
 
@@ -4531,11 +4531,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@internationalized/date@3.5.5':
+  '@internationalized/date@3.5.6':
     dependencies:
       '@swc/helpers': 0.5.13
 
-  '@internationalized/number@3.5.3':
+  '@internationalized/number@3.5.4':
     dependencies:
       '@swc/helpers': 0.5.13
 
@@ -7639,12 +7639,12 @@ snapshots:
 
   queue-tick@1.0.1: {}
 
-  radix-vue@1.9.6(vue@3.5.11):
+  radix-vue@1.9.7(vue@3.5.11):
     dependencies:
       '@floating-ui/dom': 1.6.11
       '@floating-ui/vue': 1.1.5(vue@3.5.11)
-      '@internationalized/date': 3.5.5
-      '@internationalized/number': 3.5.3
+      '@internationalized/date': 3.5.6
+      '@internationalized/number': 3.5.4
       '@tanstack/vue-virtual': 3.10.8(vue@3.5.11)
       '@vueuse/core': 10.11.1(vue@3.5.11)
       '@vueuse/shared': 10.11.1(vue@3.5.11)
