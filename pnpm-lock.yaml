@@ -22,7 +22,7 @@ importers:
         version: 8.4.49
       radix-vue:
         specifier: ^1.2.6
-        version: 1.9.9(vue@3.5.13(typescript@5.6.3))
+        version: 1.9.10(vue@3.5.13(typescript@5.6.3))
       sass:
         specifier: ^1.69.7
         version: 1.81.0
@@ -937,8 +937,8 @@ packages:
     resolution: {integrity: sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==}
     engines: {node: '>=18'}
 
-  '@swc/helpers@0.5.13':
-    resolution: {integrity: sha512-UoKGxQ3r5kYI9dALKJapMmuK+1zWM/H17Z1+iwnNmzcJRnfFuevZs375TA5rW31pu4BS4NoSy1fRsexDXfWn5w==}
+  '@swc/helpers@0.5.15':
+    resolution: {integrity: sha512-JQ5TuMi45Owi4/BIMAJBoSQoOJu12oOk/gADqlcUL9JEdHB8vyjUSsxqeNXnmXHjYKMi2WcYtezGEEhqUI/E2g==}
 
   '@tanstack/virtual-core@3.10.9':
     resolution: {integrity: sha512-kBknKOKzmeR7lN+vSadaKWXaLS0SZZG+oqpQ/k80Q6g9REn6zRHS/ZYdrIzHnpHgy/eWs00SujveUN/GJT2qTw==}
@@ -3070,8 +3070,8 @@ packages:
   queue-tick@1.0.1:
     resolution: {integrity: sha512-kJt5qhMxoszgU/62PLP1CJytzd2NKetjSRnyuj31fDd3Rlcz3fzlFdFLD1SItunPwyqEOkca6GbV612BWfaBag==}
 
-  radix-vue@1.9.9:
-    resolution: {integrity: sha512-DuL2o7jxNjzlSP5Ko+kJgrW5db+jC3RlnYQIs3WITTqgzfdeP7hXjcqIUveY1f0uXRpOAN3OAd5MZ/SpRyQzQQ==}
+  radix-vue@1.9.10:
+    resolution: {integrity: sha512-+4+J1v5A+4wbkyVr7VcjR1Zpm3K2hWJQCLgAiHSdrISaj+hPqYSeppP4yTnXQAI4B99myyihxkiC63YhTuvFBw==}
     peerDependencies:
       vue: '>= 3.2.0'
 
@@ -4318,11 +4318,11 @@ snapshots:
 
   '@internationalized/date@3.5.6':
     dependencies:
-      '@swc/helpers': 0.5.13
+      '@swc/helpers': 0.5.15
 
   '@internationalized/number@3.5.4':
     dependencies:
-      '@swc/helpers': 0.5.13
+      '@swc/helpers': 0.5.15
 
   '@ioredis/commands@1.2.0': {}
 
@@ -4957,7 +4957,7 @@ snapshots:
 
   '@sindresorhus/merge-streams@2.3.0': {}
 
-  '@swc/helpers@0.5.13':
+  '@swc/helpers@0.5.15':
     dependencies:
       tslib: 2.8.1
 
@@ -7465,7 +7465,7 @@ snapshots:
 
   queue-tick@1.0.1: {}
 
-  radix-vue@1.9.9(vue@3.5.13(typescript@5.6.3)):
+  radix-vue@1.9.10(vue@3.5.13(typescript@5.6.3)):
     dependencies:
       '@floating-ui/dom': 1.6.12
       '@floating-ui/vue': 1.1.5(vue@3.5.13(typescript@5.6.3))
