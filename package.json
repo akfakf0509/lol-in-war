@@ -9,7 +9,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
-  "packageManager": "pnpm@9.13.2",
+  "packageManager": "pnpm@9.14.1",
   "devDependencies": {
     "autoprefixer": "^10.4.16",
     "nuxt": "^3.9.0",
