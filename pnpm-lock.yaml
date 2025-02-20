@@ -22,7 +22,7 @@ importers:
         version: 8.5.3
       radix-vue:
         specifier: ^1.2.6
-        version: 1.9.15(vue@3.5.13(typescript@5.6.3))
+        version: 1.9.16(vue@3.5.13(typescript@5.6.3))
       sass:
         specifier: ^1.69.7
         version: 1.85.0
@@ -1353,6 +1353,7 @@ packages:
   bson@6.7.0:
     resolution: {integrity: sha512-w2IquM5mYzYZv6rs3uN2DZTOBe2a0zXLj53TGDqwF4l6Sz/XsISrisXOJihArF9+BZ6Cq/GjVht7Sjfmri7ytQ==}
     engines: {node: '>=16.20.1'}
+    deprecated: a critical bug affecting only useBigInt64=true deserialization usage is fixed in bson@6.10.3
 
   buffer-crc32@1.0.0:
     resolution: {integrity: sha512-Db1SbgBS/fg/392AblrMJk97KggmvYhr4pB5ZIMTWtaivCPMWLkmb7m21cJvpvgK+J3nsU2CmmixNBZx4vFj/w==}
@@ -2957,8 +2958,8 @@ packages:
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
-  radix-vue@1.9.15:
-    resolution: {integrity: sha512-+wz/PBlUTkrqFPS9ZUI1eZ4QHrU2EVbQnPvtnxWY7Q7jZtNE/LAAEf9IDoBoacX1hKfJXBB+SKfZSrv57uofYA==}
+  radix-vue@1.9.16:
+    resolution: {integrity: sha512-xwkTfQ7Ub/0XmT40JDc3g03xuYqKIJzVKGazcIkk8mUksj/tbw1pcCVRP0e3hKvPHKeQ0cktI1MvRnlUwCRvoQ==}
     peerDependencies:
       vue: '>= 3.2.0'
 
@@ -7333,7 +7334,7 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  radix-vue@1.9.15(vue@3.5.13(typescript@5.6.3)):
+  radix-vue@1.9.16(vue@3.5.13(typescript@5.6.3)):
     dependencies:
       '@floating-ui/dom': 1.6.13
       '@floating-ui/vue': 1.1.6(vue@3.5.13(typescript@5.6.3))
