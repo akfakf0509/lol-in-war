@@ -12,7 +12,7 @@
   "packageManager": "pnpm@9.15.9",
   "devDependencies": {
     "autoprefixer": "^10.4.16",
-    "nuxt": "^3.9.0",
+    "nuxt": "^4.0.0",
     "nuxt-mongoose": "^1.0.3",
     "postcss": "^8.4.32",
     "radix-vue": "^1.2.6",
